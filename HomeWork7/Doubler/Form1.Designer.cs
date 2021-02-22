@@ -46,31 +46,34 @@ namespace Doubler
             // 
             // btnCommand1
             // 
+            this.btnCommand1.Enabled = false;
             this.btnCommand1.Location = new System.Drawing.Point(294, 87);
             this.btnCommand1.Name = "btnCommand1";
             this.btnCommand1.Size = new System.Drawing.Size(75, 47);
             this.btnCommand1.TabIndex = 0;
-            this.btnCommand1.Text = "button1";
+            this.btnCommand1.Text = "+1";
             this.btnCommand1.UseVisualStyleBackColor = true;
             this.btnCommand1.Click += new System.EventHandler(this.btnCommand1_Click);
             // 
             // btnCommand2
             // 
+            this.btnCommand2.Enabled = false;
             this.btnCommand2.Location = new System.Drawing.Point(294, 140);
             this.btnCommand2.Name = "btnCommand2";
             this.btnCommand2.Size = new System.Drawing.Size(75, 47);
             this.btnCommand2.TabIndex = 1;
-            this.btnCommand2.Text = "button2";
+            this.btnCommand2.Text = "x2";
             this.btnCommand2.UseVisualStyleBackColor = true;
             this.btnCommand2.Click += new System.EventHandler(this.btnCommand2_Click);
             // 
             // btnReset
             // 
+            this.btnReset.Enabled = false;
             this.btnReset.Location = new System.Drawing.Point(12, 193);
             this.btnReset.Name = "btnReset";
             this.btnReset.Size = new System.Drawing.Size(75, 47);
             this.btnReset.TabIndex = 2;
-            this.btnReset.Text = "button3";
+            this.btnReset.Text = "Сброс";
             this.btnReset.UseVisualStyleBackColor = true;
             this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
@@ -80,27 +83,27 @@ namespace Doubler
             this.lblNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lblNumber.Location = new System.Drawing.Point(105, 95);
             this.lblNumber.Name = "lblNumber";
-            this.lblNumber.Size = new System.Drawing.Size(70, 25);
+            this.lblNumber.Size = new System.Drawing.Size(24, 25);
             this.lblNumber.TabIndex = 3;
-            this.lblNumber.Text = "label1";
+            this.lblNumber.Text = "1";
             // 
             // lblCommands
             // 
             this.lblCommands.AutoSize = true;
             this.lblCommands.Location = new System.Drawing.Point(145, 157);
             this.lblCommands.Name = "lblCommands";
-            this.lblCommands.Size = new System.Drawing.Size(35, 13);
+            this.lblCommands.Size = new System.Drawing.Size(13, 13);
             this.lblCommands.TabIndex = 4;
-            this.lblCommands.Text = "label2";
+            this.lblCommands.Text = "0";
             // 
             // lblCommandsText
             // 
             this.lblCommandsText.AutoSize = true;
             this.lblCommandsText.Location = new System.Drawing.Point(104, 157);
             this.lblCommandsText.Name = "lblCommandsText";
-            this.lblCommandsText.Size = new System.Drawing.Size(35, 13);
+            this.lblCommandsText.Size = new System.Drawing.Size(41, 13);
             this.lblCommandsText.TabIndex = 5;
-            this.lblCommandsText.Text = "label3";
+            this.lblCommandsText.Text = "Ходов:";
             // 
             // menuStrip1
             // 
@@ -118,21 +121,22 @@ namespace Doubler
             this.playToolStripMenuItem,
             this.newGameToolStripMenuItem});
             this.menuToolStripMenuItem.Name = "menuToolStripMenuItem";
-            this.menuToolStripMenuItem.Size = new System.Drawing.Size(50, 20);
-            this.menuToolStripMenuItem.Text = "menu";
+            this.menuToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
+            this.menuToolStripMenuItem.Text = "Меню";
             // 
             // playToolStripMenuItem
             // 
             this.playToolStripMenuItem.Name = "playToolStripMenuItem";
-            this.playToolStripMenuItem.Size = new System.Drawing.Size(127, 22);
-            this.playToolStripMenuItem.Text = "play";
+            this.playToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.playToolStripMenuItem.Text = "Играть";
             this.playToolStripMenuItem.Click += new System.EventHandler(this.playToolStripMenuItem_Click);
             // 
             // newGameToolStripMenuItem
             // 
+            this.newGameToolStripMenuItem.Enabled = false;
             this.newGameToolStripMenuItem.Name = "newGameToolStripMenuItem";
-            this.newGameToolStripMenuItem.Size = new System.Drawing.Size(127, 22);
-            this.newGameToolStripMenuItem.Text = "newGame";
+            this.newGameToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.newGameToolStripMenuItem.Text = "Новая игра";
             this.newGameToolStripMenuItem.Click += new System.EventHandler(this.newGameToolStripMenuItem_Click);
             // 
             // lblNumberMessage
@@ -143,14 +147,16 @@ namespace Doubler
             this.lblNumberMessage.Size = new System.Drawing.Size(35, 13);
             this.lblNumberMessage.TabIndex = 7;
             this.lblNumberMessage.Text = "label4";
+            this.lblNumberMessage.Visible = false;
             // 
             // btnCancel
             // 
+            this.btnCancel.Enabled = false;
             this.btnCancel.Location = new System.Drawing.Point(294, 193);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(75, 47);
             this.btnCancel.TabIndex = 8;
-            this.btnCancel.Text = "button4";
+            this.btnCancel.Text = "Отменить";
             this.btnCancel.UseVisualStyleBackColor = true;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
@@ -170,7 +176,7 @@ namespace Doubler
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Удвоитель";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

@@ -34,23 +34,6 @@ namespace Doubler
         public Form1()
         {
             InitializeComponent();
-            this.Text = "Удвоитель";
-            btnCommand1.Text = "+1";
-            btnCommand2.Text = "x2";
-            btnReset.Text = "Сброс";
-            btnCancel.Text = "Отменить";
-            lblNumber.Text = "1";
-            lblCommands.Text = "0";
-            lblCommandsText.Text = "Ходов:";
-            menuToolStripMenuItem.Text = "Меню";
-            playToolStripMenuItem.Text = "Играть";
-            newGameToolStripMenuItem.Text = "Новая игра";
-            lblNumberMessage.Visible = false;
-            btnCommand1.Enabled = false;
-            btnCommand2.Enabled = false;
-            btnReset.Enabled = false;
-            btnCancel.Enabled = false;
-            newGameToolStripMenuItem.Enabled = false;
         }
 
         private void btnCommand1_Click(object sender, EventArgs e)
