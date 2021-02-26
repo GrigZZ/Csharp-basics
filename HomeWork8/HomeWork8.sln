@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BelieveOrNotBelieve", "BelieveOrNotBelieve\BelieveOrNotBelieve.csproj", "{2E3FE2F3-7FEF-40B1-96C9-8084F82D5BD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FromCSVtoXML", "FromCSVtoXML\FromCSVtoXML.csproj", "{8E3053F7-9F51-4564-B0F5-9C0914FA2A43}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E3FE2F3-7FEF-40B1-96C9-8084F82D5BD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E3FE2F3-7FEF-40B1-96C9-8084F82D5BD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E3FE2F3-7FEF-40B1-96C9-8084F82D5BD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E3FE2F3-7FEF-40B1-96C9-8084F82D5BD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E3053F7-9F51-4564-B0F5-9C0914FA2A43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E3053F7-9F51-4564-B0F5-9C0914FA2A43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E3053F7-9F51-4564-B0F5-9C0914FA2A43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E3053F7-9F51-4564-B0F5-9C0914FA2A43}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0977F769-14AC-45A1-8B7F-A02E62643FAD}
+	EndGlobalSection
+EndGlobal
