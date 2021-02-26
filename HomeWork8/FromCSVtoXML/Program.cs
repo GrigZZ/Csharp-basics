@@ -1,4 +1,24 @@
-﻿using System;
+﻿#region Автор
+// Щеглов Григорий
+#endregion
+
+#region Описание задачи
+/*
+    3. *Написать программу-преобразователь из CSV в XML-файл с информацией о студентах (6 урок).
+ */
+#endregion
+
+#region Список для CSV файла
+/*
+    Иван,Петров,НГТУ,ФМА,Электромеханики,20,3,31,Кемерово
+    Дмитрий,Иванов,НГУ,МФ,Матанализа,19,2,45,Новосибирск
+    Александр,Сидоров,СибГУТИ,ФРТ,Радиотехники,22,5,12,Томск
+    Екатерина,Москвина,НГПУ,ФФ,Русского языка,21,1,117,Новокузнецк
+    Дарья,Николаенко,НГМУ,ЛФ,Хирургии,20,3,221,Омск 
+ */
+#endregion
+
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -12,8 +32,7 @@ namespace FromCSVtoXML
     {
         static void Main(string[] args)
         {
-            var fileName = "students.csv";
-            List<Student> students = LoadFromCSV(fileName);
+            List<Student> students = LoadFromCSV("students.csv");
             SaveToXML(students, "students1.xml");
         }
 

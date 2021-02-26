@@ -1,4 +1,14 @@
-﻿using System;
+﻿#region Автор
+// Щеглов Григорий
+#endregion
+
+#region Описание задачи
+/*
+    2. Используя полученные знания и класс TrueFalse, разработать игру «Верю — не верю».
+ */
+#endregion
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
